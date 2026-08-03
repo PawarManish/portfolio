@@ -1,41 +1,31 @@
-Portfolio/
+# Interactive Portfolio
 
-01_Photo_Wall/
+An immersive storytelling portfolio built with React, TypeScript and GSAP.
 
-```
-    - Layout
-    - Frames
-    - Photos
-    - Camera Animation
-    - Story Text
-```
+## Tech Stack
 
-02_Laptop_Wall/
+- React
+- TypeScript
+- Vite
+- GSAP
 
-```
-    - Desk
-    - Laptop
-    - Projects
-    - Keyboard
-    - Lighting
-```
+## Current Phase
 
-03_Contact_Corner/
+- ✅ Concept & Story
+- ✅ System Design
+- ✅ Technical Planning
+- 🚧 Prototype Development
 
-```
-    - Desk
-    - Business Card
-    - Resume
-    - Phone
-```
+## Planned Features
 
-04_Room/
+- Interactive room experience
+- Scroll-driven storytelling
+- Memory wall
+- Workspace wall
+- Contact corner
 
-```
-    - Assemble Everything
-```
-
-portfolio/
+------------------------------------------- file structure ----------------------------------------------------------
+portfolio/ 
 
 ├── public/
 │
@@ -88,3 +78,6 @@ portfolio/
 │ └── main.tsx
 │
 └── package.json
+
+
+---------------------------------------------------------------------------------------------
