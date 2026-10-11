@@ -12,17 +12,20 @@ export default function SelectedWork() {
       </div>
 
       <div className="projects-grid">
-        {projects.map((project) => (
-          <article key={project.id} className="project-card">
-            <div className="project-card-header">
-              <span className="project-number">{project.id}</span>
-              <span className="project-year">{project.year}</span>
-            </div>
-            <h3 className="project-title">{project.title}</h3>
-            <p className="project-category">{project.category}</p>
-            <p className="project-description">{project.description}</p>
-          </article>
-        ))}
+        {projects
+          .filter((project) => project.featured)
+          .slice(0, 3)
+          .map((project) => (
+            <article key={project.id} className="project-card">
+              <div className="project-card-header">
+                <span className="project-number">{project.id}</span>
+                <span className="project-year">{project.year}</span>
+              </div>
+              <h3 className="project-title">{project.title}</h3>
+              <p className="project-category">{project.category}</p>
+              <p className="project-description">{project.description}</p>
+            </article>
+          ))}
       </div>
     </section>
   );

@@ -2,19 +2,20 @@ export const profileData = {
   header: {
     portfolioLabel: "PORTFOLIO",
     edition: "DEVELOPER EDITION",
-    byText: "BY \u00a0 [YOUR NAME]",
+    byText: "BY \u00a0 Manish Pawar",
   },
   hero: {
-    eyebrow: "FULL-STACK DEVELOPER \u00a0\u00b7\u00a0 DESIGNER \u00a0\u00b7\u00a0 BUILDER",
+    eyebrow:
+      "FULL-STACK DEVELOPER \u00a0\u00b7\u00a0 WEB \u00a0\u00b7\u00a0 AI",
     titleLine1: "the",
     titleLine2: "developer.",
     bioParagraph1:
-      "Born into curiosity and raised on the internet, I write code the way some people write music \u2014 with intent, with feeling, and always with the next listener in mind. I build software that solves real problems, ships clean, and lasts. Get to know me a little better.",
+      "I like building things that are useful, clear, and thoughtfully made. I started with web development and gradually found myself working across the stack \u2014 from React interfaces to Node.js APIs and databases. These days, I\u2019m also exploring how AI can make the software I build more capable.",
     bioParagraph2:
-      "I'm a full-stack developer who believes that good engineering and good design aren't opposites \u2014 they're the same discipline expressed differently. I've worked across the stack, from database schema to pixel-perfect UI, and I care deeply about what happens in between.",
+      "I\u2019m a full-stack developer based in Nashik, currently working with React, Node.js, Express, MongoDB, and REST APIs. I\u2019ve worked on real-world CRM features, backend systems, and AI-powered applications, and I enjoy understanding how everything fits together \u2014 not just making the code work, but making the whole experience feel right.",
     details: [
-      { label: "Full Name", value: "[Your Full Name]" },
-      { label: "Based In", value: "India" },
+      { label: "Full Name", value: "Manish Pawar" },
+      { label: "Based In", value: "Nashik, Maharashtra, India" },
       { label: "Focus", value: "Full-Stack Development" },
       { label: "Status", value: "Open to Opportunities" },
     ],
@@ -28,32 +29,32 @@ export const profileData = {
       number: "01",
       title: "Frontend",
       description:
-        "React, TypeScript, Tailwind CSS, Vite, Next.js. I build interfaces that feel inevitable \u2014 responsive, accessible, and fast by default.",
-      tags: ["React", "TypeScript", "CSS", "Next.js"],
+        "React,JavaScript, TypeScript, Tailwind CSS. I build interfaces that feel inevitable \u2014 responsive, accessible, and fast by default.",
+      tags: ["React", "JavaScript", "TypeScript", "Tailwind CSS"],
     },
     {
       number: "02",
       title: "Backend",
       description:
-        "Node.js, Python, REST & GraphQL APIs, PostgreSQL, Prisma. I design systems that scale gracefully and fail predictably.",
-      tags: ["Node.js", "Python", "PostgreSQL", "GraphQL"],
+        "Node.js, Express.js, MongoDB, REST APIs. I design systems that scale gracefully and fail predictably.",
+      tags: ["Node.js", "Express.js", "MongoDB", "REST APIs"],
     },
     {
       number: "03",
       title: "Craft",
       description:
-        "Git workflows, CI/CD, testing culture, code review. I believe clean code is a form of respect \u2014 for your future self and your collaborators.",
-      tags: ["Git", "CI/CD", "Testing", "Linux"],
+        "Clean code, debugging, problem solving, and learning by building. I care about understanding why something works, not just getting it to work.",
+      tags: ["Git", "CI/CD", "DEBUGGING", "DSA"],
     },
   ],
   about: {
     eyebrow: "The Person Behind the Code",
-    titleLine1: "He covers",
+    titleLine1: "I cover",
     titleLine2: "a lot of ground.",
     paragraph1:
-      "He's the kind of developer who reads the docs, ships on time, and still finds space to make things beautiful. Not because he was told to \u2014 but because he thinks it matters. He's been building things on the internet since before most people had a reason to.",
+      "I'm a developer who likes to understand how things work beneath the surface. I started with web development and gradually found myself moving between interfaces, APIs, databases, and everything in between. I enjoy learning by building — taking an idea, turning it into something real, breaking it, fixing it, and understanding what I could do better the next time.",
     paragraph2:
-      "When he's not writing code, he's thinking about systems \u2014 how things connect, how they break, and how to make them resilient. He finds the same satisfaction in a well-structured function as in a well-told story. Both require care. Both require revision. Both reward patience.",
+      "Outside of code, there's a lot more going on. I play volleyball, train, travel, and I've been into beatboxing for years — including performing in college and getting a crowd loud enough to ask for an encore. I think that curiosity and energy carry into the way I work too. I like trying things, figuring them out for myself, and keeping enough room in life for something unexpected.",
     image: {
       src: "/images/about-portrait.jpg",
       alt: "Developer relaxed portrait",
@@ -65,24 +66,38 @@ export const profileData = {
   },
   quote: {
     eyebrow: "On the Work",
-    text: "\u201cI don't ship features. I ship experiences. The difference lives in the details \u2014 the ones most users never notice, and can't imagine living without.\u201d",
+    text: "“I like understanding how things work — then figuring out how to make them better.”",
     image: {
       src: "/images/quote-portrait.jpg",
       alt: "Developer portrait, casual",
     },
   },
   contact: {
-    eyebrow: "Let's Build Something",
+    eyebrow: "Let's Connect",
     title: "Say hello.",
-    email: "hello@youremail.com",
-    emailHref: "mailto:hello@example.com",
+    email: "pawarmanish859@gmail.com",
+    emailHref: "mailto:pawarmanish859@gmail.com",
     links: [
-      { label: "GitHub", value: "github.com/[handle]", href: "https://github.com" },
-      { label: "LinkedIn", value: "linkedin.com/in/[handle]", href: "https://linkedin.com" },
-      { label: "Twitter", value: "twitter.com/[handle]", href: "https://twitter.com" },
-      { label: "Available", value: "From [Month Year]" },
+      {
+        label: "GitHub",
+        value: "github.com/PawarManish",
+        href: "https://github.com/PawarManish",
+      },
+      {
+        label: "LinkedIn",
+        value: "linkedin.com/in/manishpawar8077",
+        href: "https://www.linkedin.com/in/manishpawar8077/",
+      },
+      {
+        label: "Based In",
+        value: "Nashik, Maharashtra, India",
+      },
     ],
-    copyright: "\u00a9 2024 \u00b7 All Rights Reserved",
-    tagline: "The Person Behind the Code",
+    copyright: "\u00a9 2026 \u00b7 All Rights Reserved",
+    tagline: "Manish Pawar · Full-Stack Developer",
+  },
+  quotes: {
+    opening: [],
+    closing: [],
   },
 };
